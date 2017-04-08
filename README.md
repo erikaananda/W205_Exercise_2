@@ -25,7 +25,7 @@ src/bolts:
 
 ## To Run the Application 
 Copy the extweetwordcount directory to an AWS instance using UCBMIDSW205EX2-FULL 
-Replace the existing twitter application credentials with a new set. 
+Replace the existing twitter application credentials in src/spouts/tweets.py with a new set. 
 Attach a disk to the instance that includes an installation of postgres.
 
 Create a postgres database and table: 
